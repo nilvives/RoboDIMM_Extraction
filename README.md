@@ -12,7 +12,7 @@ To run the main.py file, there needs to be a folder (ResData) inside the DIMM_Da
 - rW: Windowing thresholding radius in pixels.
 
 When running the main.py file, it finds a seeing value for each video file within the ResData folder. It creates a "ResData.res" file inside the DIMM_Data directory with the results in columns as:
-- #: Video file counts.
+- #: Video file count.
 - obstime: UT time of observation.
 - alt_corr: Correction for the altitude as $cos^{3/5}(z)$.
 - flong: Longitudinal seeing ($\varepsilon_l$) value corrected in arcsec.
