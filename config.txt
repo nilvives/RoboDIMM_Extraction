@@ -1,0 +1,9 @@
+directory = C:\Users\vives\Desktop\UB_TFG\RoboDIMM_Extraction\DIMM_Data
+folder = 2460337	# Folder to compute in directory
+overwrite = False	# Overwrite centroid position files in folder
+resol = 0.397		# Resolution in arcsec/pixel
+w_length = 5e-7		# Wavelength in meters
+D = 0.06		# Sub-aperture diameter in meters
+B = 0.14		# Distance between sub-apertures in meters
+rW = 10			# Windowing thresholding radius
+rM = 20			# Radius for centroid separation
