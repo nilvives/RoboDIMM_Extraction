@@ -39,7 +39,7 @@ for line in config:
 		content.append(float(c))
 	except ValueError:
 		content.append(c)
-big_directory, folder, overwrite, resol, w_length, D, B, rW, rM = content
+big_directory, folder, overwrite, resol, w_length, D, B, rW = content
 params = w_length, D, B
 overwrite = True if overwrite == 'True' else False
 folder = str(int(folder))
